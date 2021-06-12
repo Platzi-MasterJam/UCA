@@ -3,7 +3,6 @@ WORKDIR /hn-backend
 COPY ./package.json ./
 RUN npm install
 COPY . .
-RUN npm run format:ci
 RUN npm run build
 ## RUN npm run test
 
