@@ -19,7 +19,6 @@ export class PollutionService {
   async findOne(city: string) {
     const query = `https://api.waqi.info/feed/${city}/?token=${token}`;
     const result = await this.httpService.get(query).toPromise();
-    console.log(result.data)
     return result.data
   }
 
