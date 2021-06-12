@@ -9,7 +9,7 @@ RUN npm run build
 FROM node:12.20.1-alpine
 WORKDIR /hn-backend
 COPY --from=builder /hn-backend ./
-EXPOSE 3000
+EXPOSE 4000
 CMD ["npm", "run", "start:prod"]
 
 

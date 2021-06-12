@@ -2,9 +2,8 @@
   "name": "uca",
   "version": "1.0.0",
   "description": "app for get pollution",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "sudo docker-compose build && sudo docker-compose up"
   },
   "repository": {
     "type": "git",
@@ -18,10 +17,14 @@
     "next",
     "react"
   ],
-  "author": "",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Platzi-MasterJam/UCA/issues"
   },
+  "contributors": [
+    "Carlos Gutierrez <ingecarlos.gutierrez@gmail.com>",
+    "Ulises Samano <ukisessg@gmail.com>",
+    "Alexander Herrera <Chander.zap@gmail.com>"
+  ],
   "homepage": "https://github.com/Platzi-MasterJam/UCA#readme"
 }
