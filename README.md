@@ -33,7 +33,12 @@ docker-compose up
 once you up the server with Docker, open your browser in the link below:
 
 ```
-http://localhost:8080/#/home
+http://localhost:8000/
+```
+or if you prefer, run the script below (just for linux users)
+
+```bash
+npm run start
 ```
 
 ## Members
