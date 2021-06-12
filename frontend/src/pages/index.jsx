@@ -8,13 +8,15 @@ import AirCard from '../components/AirCard';
 
 function Home() {
   const [requestData, setRequestData] = useState('nothing');
+  const [cityName, setCityName] = useState('');
 
   function handleCityRequest(InputRef) {
     setRequestData('loading');
-    fetch(`http://localhost:4000/pollution/${InputRef.current.value.replace(/\s/g, '')}`)
+    fetch(`http://localhost:4000/pollution/${InputRef.current.value.replace(/\s/g, '').toLowerCase()}`)
       .then((data) => data.json())
       .then((dataRequested) => {
         setRequestData(dataRequested);
+        setCityName(InputRef.current.value);
       }).catch((err) => {
         console.log(err);
         setRequestData('Error');
@@ -31,9 +33,9 @@ function Home() {
 
         {requestData === 'nothing' && <></>}
         {requestData === 'loading' && <><LoadingSpinner /></>}
-        {typeof requestData !== 'string' && <><AirCard /></>}
+        {typeof requestData !== 'string' && <><AirCard cityName={cityName} data={requestData} /></>}
 
-        <TableRow backgroundColor="#ffffff" textColor="#000000" leftText="izquierda" centerText="centro" rigthText="Derecha" />
+        <TableRow />
 
       </main>
     </>
