@@ -1,6 +1,14 @@
 version: '3.3'
 
 services:
+  frontend:
+    container_name: frontend
+    restart: always
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
   backend:
     container_name: backend
     restart: always
@@ -8,4 +16,4 @@ services:
       context: ./backend
       dockerfile: Dockerfile
     ports:
-      - "3000:3000"
+      - "4000:4000"
