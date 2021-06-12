@@ -1,0 +1,27 @@
+{
+  "name": "uca",
+  "version": "1.0.0",
+  "description": "app for get pollution",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Platzi-MasterJam/UCA.git"
+  },
+  "keywords": [
+    "pollution",
+    "nestjs",
+    "docker",
+    "docker-compose",
+    "next",
+    "react"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Platzi-MasterJam/UCA/issues"
+  },
+  "homepage": "https://github.com/Platzi-MasterJam/UCA#readme"
+}
