@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev -p 8000",
+    "dev": "next dev -p 2001",
     "build": "next build",
     "start": "next start",
     "start:backend": "sudo docker-compose build && sudo docker-compose up"
