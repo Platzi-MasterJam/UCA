@@ -8,6 +8,7 @@ import '../styles/layout.css';
 import '../styles/search-bar.css';
 import '../styles/table-row-styles.css';
 import '../styles/loading-spinner.styles.css';
+import '../styles/air-card-styles.css';
 
 export default function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />;
