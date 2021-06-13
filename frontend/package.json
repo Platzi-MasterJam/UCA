@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "dev": "next dev -p 8000",
-    "build": "next build",
+    "build": "next build && mv ./.next ../backend/statics",
     "start": "next start",
-    "start:backend": "sudo docker-compose build && sudo docker-compose up"
+    "start:backend": "docker-compose build && docker-compose up"
   },
   "author": "",
   "license": "MIT",

@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "app for get pollution",
   "scripts": {
-    "start": "sudo docker-compose build && sudo docker-compose up"
+    "start": "cd frontend && npm run build && cd .. && sudo docker-compose build && sudo docker-compose up"
   },
   "repository": {
     "type": "git",
