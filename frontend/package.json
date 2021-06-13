@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev -p 8000",
-    "build": "next build && mv ./.next ../backend/statics",
+    "dev": "next dev -p 8001",
+    "build": "next build",
+    "build:prod": "next build && next export",
     "start": "next start",
     "start:backend": "docker-compose build && docker-compose up"
   },
