@@ -1,0 +1,40 @@
+.table-row {
+  width: 100%;
+  margin: 60px 0px;
+  box-shadow: 0px 2px 6px 1px #c1c1c1;
+  padding: 0;
+  border: 0;
+  outline: none;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  border-spacing: 0;
+}
+
+.row {
+  display: flex;
+  display: -webkit-flex;
+  justify-content: space-around;
+  height: 100%;
+  border: 1px solid black;
+}
+
+td {
+  width: 100%;
+  height: auto;
+  border-right: 1px solid black;
+  text-align: left;
+  padding: 10px;
+}
+
+.td-center {
+  text-align: center;
+}
+
+.last-td {
+  border-right: none;
+}
+
+.row-data {
+  text-align: left !important;
+}
