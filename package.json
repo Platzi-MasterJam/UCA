@@ -1,0 +1,32 @@
+{
+  "name": "uca",
+  "version": "1.0.0",
+  "description": "app for get pollution",
+  "scripts": {
+    "dev": "cd backend && sudo rm -rf statics && cd ../frontend && sudo npm run build:prod && cd ..",
+    "start": "docker-compose build && docker-compose up"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Platzi-MasterJam/UCA.git"
+  },
+  "keywords": [
+    "pollution",
+    "nestjs",
+    "docker",
+    "docker-compose",
+    "next",
+    "react"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Platzi-MasterJam/UCA/issues"
+  },
+  "contributors": [
+    "Carlos Gutierrez <ingecarlos.gutierrez@gmail.com>",
+    "Ulises Samano <ukisessg@gmail.com>",
+    "Alexander Herrera <Chander.zap@gmail.com>"
+  ],
+  "homepage": "https://github.com/Platzi-MasterJam/UCA#readme"
+}

@@ -1,0 +1,14 @@
+.header {
+  width: 100vw;
+  height: 80px;
+  background-color: #5400F5;
+  display: flex;
+  display: -webkit-flex;
+}
+
+.header__logo {
+  color: white;
+  font-size: xx-large;
+  align-self: center;
+  margin-left: 15px;
+}
