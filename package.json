@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "cd backend && sudo rm -rf statics && cd ../frontend && sudo npm run build:prod && cd ..",
     "start:docker": "docker-compose build && docker-compose up",
-    "start": "cd backend && npm install && npm run start:prod"
+    "start": "cd backend && npm install && echo pwm && npm run start:prod"
 
 
 
