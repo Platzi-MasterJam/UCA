@@ -4,7 +4,9 @@
   "description": "app for get pollution",
   "scripts": {
     "dev": "cd backend && sudo rm -rf statics && cd ../frontend && sudo npm run build:prod && cd ..",
-    "start": "docker-compose build && docker-compose up"
+    "start:docker": "docker-compose build && docker-compose up",
+    "start": "cd backend && npm run start"
+
 
   },
   "repository": {
