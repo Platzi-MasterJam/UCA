@@ -1,0 +1,22 @@
+.air-card {
+  margin-top: 40px;
+  width: 400px;
+  height: 250px;
+  border-radius: 20px;
+  text-align: center;
+  display: grid;
+  display: -ms-grid;
+  display: -moz-grid;
+  align-items: center;
+  box-shadow: 0px 3px 6px 0px #cfcfcf;
+}
+
+.air-card>p, .air-card>h4 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.air-card>h2 {
+  font-size: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+}
