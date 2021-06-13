@@ -1,7 +1,14 @@
 .table-row {
   width: 100%;
-  margin: 20px 0;
-  box-shadow: 0px 2px 4px 0px #C1C1C1;
+  margin: 60px 0px;
+  box-shadow: 0px 2px 6px 1px #c1c1c1;
+  padding: 0;
+  border: 0;
+  outline: none;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  border-spacing: 0;
 }
 
 .row {

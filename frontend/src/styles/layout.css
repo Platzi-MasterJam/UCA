@@ -6,7 +6,6 @@
   flex-direction: column;
   -ms-flex-direction: column;
   align-items: center;
-  overflow-y: hidden;
 }
 
 .main__title {

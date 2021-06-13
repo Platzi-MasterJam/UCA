@@ -34,8 +34,10 @@ function Home() {
         {requestData === 'nothing' && <></>}
         {requestData === 'loading' && <><LoadingSpinner /></>}
         {typeof requestData !== 'string' && <><AirCard cityName={cityName} data={requestData} /></>}
+        <div style={{ maxWidth: '100%', margin: '0 auto' }}>
+          <TableRow />
 
-        <TableRow />
+        </div>
 
       </main>
     </>
